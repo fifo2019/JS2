@@ -26,7 +26,7 @@
 
 <script>
     let str = document.querySelector(`.string`).innerHTML;
-    document.querySelector(`.string`).innerHTML = str.replace(/([^a-z]')/g, '"');
+    document.querySelector(`.string`).innerHTML = str.replace(/([^a-z]')/gi, '"');
 </script>
 </body>
 </html>
